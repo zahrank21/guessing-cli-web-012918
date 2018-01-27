@@ -3,7 +3,7 @@ def run_guessing_game
   while result == false
       puts "Guess a number between 1 and 6."
       guess = gets.chomp
-      answe = rand(1..6)
+      answer = rand(1..6)
       if guess == "exit"
         puts "Goodbye!"
         break
